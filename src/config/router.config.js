@@ -37,21 +37,27 @@ export const defaultRouterMap = [
     'key': 'form',
     'component': 'PageView',
     'icon': 'form',
-    'children': [{
-      'title': '基础表单',
-      'key': 'baseForm',
-      'icon': ''
-    },
-    {
-      'title': '分步表单',
-      'key': 'stepForm',
-      'icon': ''
-    },
-    {
-      'title': '高级表单',
-      'key': 'advancedForm',
-      'icon': ''
-    }
+    'children': [
+      {
+        'title': '基础表单',
+        'key': 'baseForm',
+        'icon': ''
+      },
+      {
+        'title': '分步表单',
+        'key': 'stepForm',
+        'icon': ''
+      },
+      {
+        'title': '高级表单',
+        'key': 'advancedForm',
+        'icon': ''
+      },
+      {
+        'title': '富文本',
+        'key': 'editorForm',
+        'icon': ''
+      }
     ]
   },
   {
@@ -204,7 +210,7 @@ export const defaultRouterMap = [
     'title': '其他',
     'key': 'others',
     'component': 'PageView',
-    'icon': 'interation',
+    'icon': 'interaction',
     'children': [
       {
         'title': '捐赠记录',

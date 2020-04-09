@@ -54,20 +54,20 @@ module.exports = {
       {
         'ignoreReadBeforeAssign': false
       }
-    ]
+    ],
+    'template-curly-spacing': 'off',
+    'indent': ['error']
   },
   parserOptions: {
     parser: 'babel-eslint'
   },
-  overrides: [
-    {
-      files: [
-        '**/__tests__/*.{j,t}s?(x)',
-        '**/tests/unit/**/*.spec.{j,t}s?(x)'
-      ],
-      env: {
-        jest: true
-      }
+  overrides: [{
+    files: [
+      '**/__tests__/*.{j,t}s?(x)',
+      '**/tests/unit/**/*.spec.{j,t}s?(x)'
+    ],
+    env: {
+      jest: true
     }
-  ]
+  }]
 }
